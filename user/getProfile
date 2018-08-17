@@ -1,0 +1,22 @@
+{
+  "header": {
+    "code": "0",
+    "message": "Success"
+  },
+  "body": {
+    "profile_data": {
+      "uuid": "24966058-a849-414d-82a8-478e4813175c",
+      "first_name": "John",
+      "last_name": "Wick",
+      "email": "john_wick@gmail.co",
+      "phone_number": ""
+    },
+    "active_addons": [
+      "dedicated_ip",
+      "ozone",
+      "p2p_protection",
+      "gravity",
+      "port_forwarding"
+    ]
+  }
+}
