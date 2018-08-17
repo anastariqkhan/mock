@@ -13,11 +13,14 @@
         "phone_number": ""
       },
       "active_addons": [
-        "dedicated_ip",
-        "ozone",
-        "p2p_protection",
-        "gravity",
-        "port_forwarding"
+        {
+          "title": "Dedicated IP",
+          "slug": "dedicated_ip"
+        },
+        {
+          "title": "Ozone",
+          "slug": "ozone"
+        }
       ]
     }
   },
@@ -27,8 +30,9 @@
       "message": "Success"
     },
     "body": {
-      "host": "uk-ded-5.purevpn.net",
-      "protocol_no": "3"
+      "addon_data": {
+        "host": "uk-ded-5.purevpn.net"
+      }
     }
   }
 }
