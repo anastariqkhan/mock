@@ -6,20 +6,24 @@
     },
     "body": {
       "profile_data": {
-        "uuid": "24966058-a849-414d-82a8-478e4813175c",
-        "first_name": "John",
-        "last_name": "Wick",
-        "email": "john_wick@gmail.co",
-        "phone_number": ""
+        "uuid": "2122c8c2-2ea5-4dd0-96d2-523ff7ab0fab",
+        "first_name": "ali_raza",
+        "last_name": "NA",
+        "email": "ali_raza@gaditek.com",
+        "phone_number": "000"
       },
       "active_addons": [
         {
-          "title": "Dedicated IP",
-          "slug": "dedicated_ip"
+          "slug": "port_forwarding",
+          "title": "NAT Firewall (The Security you need!)"
         },
         {
-          "title": "Ozone",
-          "slug": "ozone"
+          "slug": "dedicated_ip",
+          "title": "Dedicated IP"
+        },
+        {
+          "slug": "secure_p2p",
+          "title": "Secure P2P"
         }
       ]
     }
