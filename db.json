@@ -22,6 +22,14 @@
           "title": "Dedicated IP"
         },
         {
+          "slug": "dedicated_ip_ddos",
+          "title": "Dedicated IP (with DDoS Protection)"
+        },
+        {
+          "slug": "enterprise_grade_security_privacy",
+          "title": "Enterprise Grade Security &amp; Privacy"
+        },
+        {
           "slug": "secure_p2p",
           "title": "Secure P2P"
         }
