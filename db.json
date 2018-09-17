@@ -79,5 +79,19 @@
         }
       ]
     }
+  },
+  "sendExtensionEmail": {
+    "header": {
+      "code": "0",
+      "message": "Success"
+    },
+    "body": {}
+  },
+  "tweet": {
+    "header": {
+      "code": "0",
+      "message": "Success"
+    },
+    "body": {}
   }
 }
