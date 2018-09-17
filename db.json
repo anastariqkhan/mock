@@ -40,5 +40,44 @@
         }
       ]
     }
+  },
+  "getprofile": {
+    "header": {
+      "code": "0",
+      "message": "Success"
+    },
+    "body": {
+      "profile_data": {
+        "uuid": "24966058-478e4813175c",
+        "first_name": "Noman",
+        "last_name": "",
+        "email": "abc@example.com",
+        "phone_number": "",
+        "mcs_status": "0",
+        "vpn_account_data": {
+          "status_code": "533/701",
+          "expiry": "11-09-2018",
+          "days_remaining": "3"
+        }
+      },
+      "active_addons": [
+        {
+          "slug": "port_forwarding",
+          "title": "NAT Firewall (The Security you need!)"
+        },
+        {
+          "slug": "dedicated_ip",
+          "title": "Dedicated IP"
+        },
+        {
+          "slug": "enterprise_grade_security_privacy",
+          "title": "Enterprise Grade Security & Privacy"
+        },
+        {
+          "slug": "secure_p2p",
+          "title": "Secure P2P"
+        }
+      ]
+    }
   }
 }
