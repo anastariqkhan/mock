@@ -5,10 +5,8 @@
       "message": "Success"
     },
     "body": {
-      "user_bucket": {
         "available_tweets": "5",
         "extension_first_logged_in": "false"
-      }
     }
   },
   "getTweets": {
