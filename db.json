@@ -11,7 +11,7 @@
   },
   "getTweets": {
     "header": {
-      "code": 1,
+      "code": 0,
       "message": "Success"
     },
     "body": {
