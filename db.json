@@ -5,8 +5,8 @@
       "message": "Success"
     },
     "body": {
-        "available_tweets": "5",
-        "extension_first_logged_in": "false"
+        "available_tweets": 5,
+        "extension_first_logged_in": false
     }
   },
   "getTweets": {
