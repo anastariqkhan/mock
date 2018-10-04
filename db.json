@@ -53,7 +53,8 @@
         "phone_number": "",
         "mcs_status": "0",
         "vpn_account_data": {
-          "status_code": "533/701",
+          "status_code": "",
+          "status":"",
           "expiry": "11-09-2018",
           "days_remaining": "3"
         }
