@@ -19,11 +19,11 @@
       },
       "deals": [
         {
-          "name": "Black Friday Deals",
+          "name": "Friday Deals",
           "url": "https://purevpn.com/order"
         },
         {
-          "name": "Cyber Monday Deals",
+          "name": "Monday Deals",
           "url": "https://purevpn.com/order"
         }
       ]
