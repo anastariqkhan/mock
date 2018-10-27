@@ -16,7 +16,17 @@
       "gdpr": {
         "force_user_consent": "1",
         "isForced": "1"
-      }
+      },
+      "deals": [
+        {
+          "name": "Black Friday Deals",
+          "url": "https://purevpn.com/order"
+        },
+        {
+          "name": "Cyber Monday Deals",
+          "url": "https://purevpn.com/order"
+        }
+      ]
     }
   }
 }
