@@ -1,18 +1,40 @@
 {
-  "getuserNotifications": {
+  "getPaymentPlans": {
     "header": {
-      "code": "0",
-      "message": "Success"
+      "code": 1,
+      "message": "success"
     },
     "body": {
-      "notifications": [
+      "payment_plans": [
         {
-          "description": "Message",
-          "title": "Title ",
-          "action": "open-url",
-          "extras": {
-            "url": "http://www.purevpn.com"
-          }
+          "name": "1 month plan",
+          "original_price": 10.95,
+          "currency": "USD",
+          "price": 10.95,
+          "price_period": "per month",
+          "discount": "NO SAVINGS",
+          "annual_price": "$48 will be billed annually",
+          "sku": "pvpn.monthly.trial.v1"
+        },
+        {
+          "name": "1 year plan",
+          "original_price": "$10.95",
+          "currency": "USD",
+          "price": 3.99,
+          "price_period": "per month",
+          "discount": "You save 70%",
+          "annual_price": "$84 will be billed annually",
+          "sku": "pvpn.annually.trial.v1"
+        },
+        {
+          "name": "3 months plan",
+          "original_price": 30,
+          "currency": "USD",
+          "price": 8,
+          "price_period": "per month",
+          "discount": "You save 27%",
+          "annual_price": "$84 will be billed annually",
+          "sku": "pvpn.quarterly.trial.v1"
         }
       ]
     }
