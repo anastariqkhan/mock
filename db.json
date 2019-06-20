@@ -1,48 +1,124 @@
 {
-  "getPaymentPlans": {
-    "header": {
-      "code": 0,
-      "message": "success"
+  "feedback_nps": [
+    {
+      "policy_id": 1,
+      "billing_cycle": "all",
+      "occurrence_period": {
+        "start_day": 4,
+        "end_day": 7
+      },
+      "description": "Desired outcome popup will appear during 4th-7th day of account creation",
+      "start_from": 0,
+      "is_recurring": false,
+      "action_yes": "comment",
+      "action_no": "live_chat",
+      "method": "desired_outcome",
+      "calculate_from": "created_date"
     },
-    "body": {
-      "payment_plans": [
-        {
-          "name": "1 Month",
-          "is_exclusive": 0,
-          "currency": "$",
-          "sku_playstore": "pvpn.monthly.withtrial.v1",
-          "actual_price": 10.95,
-          "discount": 0.00,
-          "discount_percentage": "0%",
-          "discounted_price": 10.95,
-          "discounted_price_description": "$10.95 will be billed every month",
-          "price_monthly": 10.95
-        },
-        {
-          "name": "1 Year",
-          "is_exclusive": 1,
-          "currency": "$",
-          "sku_playstore": "pvpn.annually.withtrial.v1",
-          "actual_price": 131.4,
-          "discount": 91.44,
-          "discount_percentage": "70%",
-          "discounted_price": 39.96,
-          "discounted_price_description": "$39.96 will be billed every year",
-          "price_monthly": 3.33
-        },
-        {
-          "name": "3 Months",
-          "is_exclusive": 0,
-          "currency": "$",
-          "sku_playstore": "pvpn.quarterly.withtrial.v1",
-          "actual_price": 32.85,
-          "discount": 8.85,
-          "discount_percentage": "27%",
-          "discounted_price": 24.00,
-          "discounted_price_description": "$24.00 will be billed every 3 months",
-          "price_monthly": 8.00
-        }
-      ]
+    {
+      "policy_id": 2,
+      "billing_cycle": "all",
+      "occurrence_period": {
+        "start_day": 12,
+        "end_day": 15
+      },
+      "description": "Desired outcome popup will appear during 12th-15th day of account creation",
+      "start_from": 0,
+      "is_recurring": false,
+      "action_yes": "experience_nps",
+      "action_no": "live_chat",
+      "method": "desired_outcome",
+      "calculate_from": "created_date"
+    },
+    {
+      "policy_id": 3,
+      "billing_cycle": "all",
+      "occurrence_period": {
+        "start_day": 7,
+        "end_day": 10
+      },
+      "description": "Desired outcome popup will appear during 7th-10th day of 2nd Month of account creation",
+      "start_from": 30,
+      "is_recurring": false,
+      "action_yes": "rating_nps",
+      "action_no": "live_chat",
+      "method": "desired_outcome",
+      "calculate_from": "created_date"
+    },
+    {
+      "policy_id": 4,
+      "billing_cycle": "all",
+      "start_from": 60,
+      "is_recurring": true,
+      "occurrence_period": {
+        "start_day": 12,
+        "end_day": 15
+      },
+      "description": "Desired outcome popup will appear every month after 2nd month in week 2",
+      "action_yes": "nps",
+      "action_no": "live_chat",
+      "method": "desired_outcome",
+      "calculate_from": "created_date"
+    },
+    {
+      "policy_id": 5,
+      "billing_cycle": "monthly",
+      "start_from": 0,
+      "is_recurring": false,
+      "occurrence_period": {
+        "start_day": 11,
+        "end_day": 9
+      },
+      "description": "Experience NPS popup will appear 1 week before expiry of monthly users",
+      "action_yes": "",
+      "action_no": "",
+      "method": "nps",
+      "calculate_from": "expiry_date"
+    },
+    {
+      "policy_id": 6,
+      "billing_cycle": "monthly",
+      "start_from": 30,
+      "is_recurring": false,
+      "occurrence_period": {
+        "start_day": 11,
+        "end_day": 9
+      },
+      "method": "nps",
+      "description": "Experience NPS popup will appear 1 week before expiry of monthly users",
+      "action_yes": "",
+      "action_no": "",
+      "calculate_from": "expiry_date"
+    },
+    {
+      "policy_id": 7,
+      "billing_cycle": "quarterly",
+      "start_from": 0,
+      "is_recurring": false,
+      "occurrence_period": {
+        "start_day": 12,
+        "end_day": 15
+      },
+      "method": "nps",
+      "description": "Experience NPS popup will appear 2 weeks before expiry of quarterly users",
+      "action_yes": "",
+      "action_no": "",
+      "calculate_from": "expiry_date"
+    },
+    {
+      "policy_id": 8,
+      "billing_cycle": "annually",
+      "start_from": 0,
+      "is_recurring": false,
+      "occurrence_period": {
+        "start_day": 30,
+        "end_day": 35
+      },
+      "method": "nps",
+      "description": "Experience NPS popup will appear 1 month before expiry of annual users",
+      "action_yes": "",
+      "action_no": "",
+      "calculate_from": "expiry_date"
     }
-  }
+  ]
 }
