@@ -63,7 +63,7 @@
     {
       "policy_id": 5,
       "billing_cycle": "monthly",
-      "start_from": 30,
+      "start_from": 0,
       "is_recurring": false,
       "occurrence_period": {
         "start_day": 11,
@@ -78,7 +78,7 @@
     {
       "policy_id": 6,
       "billing_cycle": "monthly",
-      "start_from": 60,
+      "start_from": 30,
       "is_recurring": false,
       "occurrence_period": {
         "start_day": 11,
