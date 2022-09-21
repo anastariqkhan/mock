@@ -120,5 +120,15 @@
       "action_no": "",
       "calculate_from": "expiry_date"
     }
-  ]
+  ],
+  "dedicated_ip_details": {
+    "header": {
+      "code": "0",
+      "message": "Success"
+    },
+    "body": {
+      "host": "uk-ded-5.purevpn.net",
+      "protocol_no": "3"
+    }
+  }
 }
