@@ -3,7 +3,8 @@
     "allowed_apps":[
       "com.purevpn.pureprivacy",
       "com.gaditek.purevpnics",
-      "com.techwards.test"
+      "com.techwards.test",
+      "com.purevpn.pureprivacy.dev"
     ]
   }
 }
