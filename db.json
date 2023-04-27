@@ -4,7 +4,8 @@
       "com.purevpn.pureprivacy",
       "com.gaditek.purevpnics",
       "com.techwards.test",
-      "com.purevpn.pureprivacy.dev"
+      "com.purevpn.pureprivacy.dev",
+      "com.purevpn.pureprivacy.qa"
     ]
   }
 }
