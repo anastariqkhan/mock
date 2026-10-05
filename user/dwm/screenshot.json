@@ -1,0 +1,11 @@
+{
+    "header":{
+        "response_code":200,
+        "message":"Success",
+        "api_version":"V2"
+        },
+    "body":{
+        "url": "https://github.com/anastariqkhan/mock/blob/master/1787576366623.png?raw=true",
+        "expiresInSeconds": 300 
+    }
+}
