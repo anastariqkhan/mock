@@ -1,0 +1,216 @@
+{
+    "header": {
+      "response_code": 200,
+      "message": "Success",
+      "api_version": "V1"
+    },
+    "body": {
+      "uuid": "5cf68277-fb86-4950-bf10-7653488ed546",
+      "filter": {
+        "from": "2024-01-01",
+        "to": "2025-09-15",
+        "granularity": "day"
+      },
+      "totals": {
+        "breaches_found": 18,
+        "breaches_resolved": 9,
+        "rmd_reappeared": 2,
+        "rmd_found": 12,
+        "rmd_removed": 7
+      },
+      "series": [
+        {
+          "key": "dwm_breaches_found",
+          "label": "Breaches found",
+          "source_events": [
+            "dwm.scan.complete",
+            "new.breach.detected"
+          ],
+          "points": [
+            {
+              "date": "2024-01-01",
+              "value": 6
+            },
+            {
+              "date": "2024-07-01",
+              "value": 11
+            },
+            {
+              "date": "2025-01-01",
+              "value": 15
+            },
+            {
+              "date": "2025-09-01",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "key": "dwm_breaches_resolved",
+          "label": "Resolved / removed",
+          "source_events": [
+            "breach.resolved"
+          ],
+          "points": [
+            {
+              "date": "2024-01-01",
+              "value": 1
+            },
+            {
+              "date": "2024-07-01",
+              "value": 4
+            },
+            {
+              "date": "2025-01-01",
+              "value": 7
+            },
+            {
+              "date": "2025-09-01",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "key": "rmd_scan_initiated",
+          "label": "RMD Scan",
+          "source_events": [
+            "rmd.scan.complete"
+          ],
+          "points": [
+            {
+              "date": "2024-01-01",
+              "value": 5
+            },
+            {
+              "date": "2024-07-01",
+              "value": 6
+            },
+            {
+              "date": "2025-01-01",
+              "value": 5
+            },
+            {
+              "date": "2025-09-01",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "key": "rmd_removal_confirmed",
+          "label": "RMD Removal Confirmed",
+          "source_events": [
+            "rmd.removal.confirmed"
+          ],
+          "points": [
+            {
+              "date": "2024-01-01",
+              "value": 5,
+              "data": {
+                "full_name": 3,
+                "email_address": 10,
+                "phone_number": 3,
+                "address": 4,
+                "relatives": 5
+              }
+            },
+            {
+              "date": "2026-10-02",
+              "value": 6
+            },
+            {
+              "date": "2026-10-03",
+              "value": 11
+            },
+            {
+              "date": "2026-10-04",
+              "value": 15
+            },
+            {
+              "date": "2026-10-05",
+              "value": 17
+            },
+            {
+              "date": "2026-10-06",
+              "value": 22
+            },
+            {
+              "date": "2026-10-07",
+              "value": 27
+            }
+          ],
+          "projected_points": [
+            {
+              "date": "2026-10-08",
+              "value": 31
+            },
+            {
+              "date": "2026-10-09",
+              "value": 34
+            },
+            {
+              "date": "2026-10-10",
+              "value": 40
+            },
+            {
+              "date": "2026-10-11",
+              "value": 44
+            },
+            {
+              "date": "2026-10-12",
+              "value": 46
+            },
+            {
+              "date": "2026-10-13",
+              "value": 50
+            },
+            {
+              "date": "2026-10-14",
+              "value": 54
+            },
+            {
+              "date": "2026-10-15",
+              "value": 56
+            },
+            {
+              "date": "2026-10-16",
+              "value": 60
+            },
+            {
+              "date": "2026-10-17",
+              "value": 65
+            },
+            {
+              "date": "2026-10-18",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "key": "rmd_data_reappeared",
+          "label": "Reappeared",
+          "color": "#FBBF24",
+          "source_events": [
+            "rmd.data.reappeared"
+          ],
+          "points": [
+            {
+              "date": "2024-01-01",
+              "value": 0
+            },
+            {
+              "date": "2024-07-01",
+              "value": 1
+            },
+            {
+              "date": "2025-01-01",
+              "value": 1
+            },
+            {
+              "date": "2025-09-01",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
