@@ -1,0 +1,166 @@
+{
+  "header": {
+    "response_code": 200,
+    "message": "Success",
+    "api_version": "V1"
+  },
+  "body": {
+    "uuid": "5cf68277-fb86-4950-bf10-7653488ed546",
+    "page": 1,
+    "page_size": 20,
+    "total": 8,
+    "items": [
+      {
+        "id": "act_8",
+        "occurred_at": "2026-10-05T07:20:19.428Z",
+        "product": "dwm",
+        "event": "dwm.activated",
+        "title": "Your email has a lookout now",
+        "description": "Dark web monitoring is active. See what we are monitoring for you.",
+        "broker": [],
+        "breaches": [],
+        "action": "open-screen",
+        "destination": "identity-dashboard",
+        "severity": "info"
+      },
+      {
+        "id": "act_7",
+        "occurred_at": "2026-10-05T07:20:19.428Z",
+        "product": "dwm",
+        "event": "breach.detected",
+        "title": "A new breach is detected",
+        "description": "We've found your info in a new breach.",
+        "broker": [],
+        "breaches": [
+          {
+            "name": "facebook.com",
+            "id": 332
+          }
+        ],
+        "action": "open-screen",
+        "destination": "breach-details",
+        "severity": "critical"
+      },
+      {
+        "id": "act_6",
+        "occurred_at": "2026-10-05T07:20:19.428Z",
+        "product": "dwm",
+        "event": "breach.detected",
+        "title": "A new breach is detected on multiple sources",
+        "description": "We've found your info in 2 new breaches.",
+        "broker": [],
+        "breaches": [
+          {
+            "name": "facebook.com",
+            "id": 332
+          },
+          {
+            "name": "swvl.com",
+            "id": 43
+          }
+        ],
+        "action": "open-screen",
+        "destination": "dark-web-monitoring",
+        "severity": "critical"
+      },
+      {
+        "id": "act_5",
+        "occurred_at": "2026-10-05T07:20:19.428Z",
+        "product": "dwm",
+        "event": "breach.resolved",
+        "title": "Facebook breach is resolved",
+        "description": null,
+        "broker": [],
+        "breaches": [
+          {
+            "name": "facebook.com",
+            "id": 332
+          }
+        ],
+        "action": "open-screen",
+        "destination": "breach-details",
+        "severity": "success"
+      },
+      {
+        "id": "act_4",
+        "occurred_at": "2026-10-01T09:34:51.417Z",
+        "product": "rmd",
+        "event": "removal.confirmed",
+        "title": "Removal confirmed",
+        "description": "Your data was removed from Degree.Me.",
+        "broker": [
+          {
+            "id": 21,
+            "name": "Degree.Me"
+          }
+        ],
+        "breaches": [],
+        "action": "open-screen",
+        "destination": "broker-details",
+        "severity": "success"
+      },
+      {
+        "id": "act_3",
+        "occurred_at": "2026-10-01T09:34:51.417Z",
+        "product": "rmd",
+        "event": "removal.confirmed",
+        "title": "Removal confirmed",
+        "description": "Your data was removed from Degree.Me, Incogni and 1 more.",
+        "broker": [
+          {
+            "id": 21,
+            "name": "Degree.Me"
+          },
+          {
+            "id": 321,
+            "name": "Incogni"
+          },
+          {
+            "id": 223,
+            "name": "Spokeo"
+          }
+        ],
+        "breaches": [],
+        "action": "open-screen",
+        "destination": "remove-my-data",
+        "severity": "success"
+      },
+      {
+        "id": "act_2",
+        "occurred_at": "2026-09-28T11:02:14.100Z",
+        "product": "rmd",
+        "event": "data.reappeared",
+        "title": "Your data showed up again",
+        "description": "We found your data again on Spokeo. A new removal request was started.",
+        "broker": [
+          {
+            "id": 223,
+            "name": "Spokeo"
+          }
+        ],
+        "breaches": [],
+        "action": "open-screen",
+        "destination": "broker-details",
+        "severity": "warning"
+      },
+      {
+        "id": "act_1",
+        "occurred_at": "2026-09-22T02:14:07.021Z",
+        "product": "rmd",
+        "event": "scan.complete",
+        "title": "Broker scan finished",
+        "description": "We scanned Spokeo and found a listing to remove.",
+        "broker": [
+          {
+            "id": 223,
+            "name": "Spokeo"
+          }
+        ],
+        "breaches": [],
+        "action": "open-screen",
+        "destination": "broker-details",
+        "severity": "info"
+      }
+    ]
+  }
+}
